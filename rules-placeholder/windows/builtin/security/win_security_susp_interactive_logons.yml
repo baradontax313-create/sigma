@@ -20,10 +20,10 @@ logsource:
 detection:
     selection:
         EventID:
-            - 528
-            - 529
-            - 4624
-            - 4625
+            - '528'
+            - '529'
+            - '4624'
+            - '4625'
         LogonType: 2
         ComputerName|expand:
             - '%ServerSystems%'

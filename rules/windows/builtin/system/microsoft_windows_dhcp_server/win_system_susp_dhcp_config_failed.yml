@@ -20,9 +20,9 @@ logsource:
 detection:
     selection:
         EventID:
-            - 1031
-            - 1032
-            - 1034
+            - '1031'
+            - '1032'
+            - '1034'
         Provider_Name: Microsoft-Windows-DHCP-Server
     condition: selection
 falsepositives:

@@ -16,8 +16,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 4663
-            - 4656
+            - '4663'
+            - '4656'
         AccessMask:
             - '0x100000'
             - '0x1010'    # car.2019-04-004

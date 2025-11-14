@@ -21,8 +21,8 @@ detection:
         Initiated: 'true'
     filter_main_known_ports:
         DestinationPort:
-            - 80
-            - 443
+            - '80'
+            - '443'
     filter_optional_dns_ipv6:
         # Based on VT. More than 140 binaries made communication over DNS
         DestinationIsIpv6: 'true'

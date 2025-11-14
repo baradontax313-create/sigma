@@ -1,7 +1,5 @@
 title: Suspicious WMIC Execution Via Office Process
 id: e1693bc8-7168-4eab-8718-cdcaa68a1738
-related:
-    - id: 438025f9-5856-4663-83f7-52f878a70a50
       type: derived
     - id: 518643ba-7d9c-4fa5-9f37-baed36059f6a
       type: obsolete

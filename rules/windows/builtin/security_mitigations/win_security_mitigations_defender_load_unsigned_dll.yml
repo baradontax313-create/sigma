@@ -18,8 +18,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 11
-            - 12 # MDE: ExploitGuardNonMicrosoftSignedBlocked
+            - '11'
+            - '12' # MDE: ExploitGuardNonMicrosoftSignedBlocked
         ProcessPath|endswith:
             - '\MpCmdRun.exe'
             - '\NisSrv.exe'

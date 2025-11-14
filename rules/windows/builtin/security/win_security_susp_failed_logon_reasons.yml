@@ -20,8 +20,8 @@ logsource:
 detection:
     selection_eid:
         EventID:
-            - 4625
-            - 4776
+            - '4625'
+            - '4776'
     selection_status:
         - Status:
               - '0xC0000072'  # User logon to account disabled by administrator

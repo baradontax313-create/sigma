@@ -1,7 +1,5 @@
 title: Important Scheduled Task Deleted/Disabled
 id: 7595ba94-cf3b-4471-aa03-4f6baa9e5fad
-related:
-    - id: dbc1f800-0fe0-4bc0-9c66-292c2abe3f78 # ProcCreation schtasks delete
       type: similar
     - id: 9ac94dc8-9042-493c-ba45-3b5e7c86b980 # ProcCreation schtasks disable
       type: similar
@@ -27,8 +25,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 4699 # Task Deleted Event
-            - 4701 # Task Disabled Event
+            - '4699' # Task Deleted Event
+            - '4701' # Task Disabled Event
         TaskName|contains:
             # Add more important tasks
             - '\Windows\SystemRestore\SR'

@@ -1,7 +1,5 @@
 title: Suspicious Windows Service Tampering
 id: ce72ef99-22f1-43d4-8695-419dcb5d9330
-related:
-    - id: eb87818d-db5d-49cc-a987-d5da331fbd90
       type: obsolete
     - id: 6783aa9e-0dc3-49d4-a94a-8b39c5fd700b
       type: obsolete

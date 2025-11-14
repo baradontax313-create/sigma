@@ -1,7 +1,5 @@
 title: Windows Defender Exclusion Registry Key - Write Access Requested
 id: e9c8808f-4cfb-4ba9-97d4-e5f3beaa244d
-related:
-    - id: 46a68649-f218-4f86-aea1-16a759d81820
       type: derived
     - id: a33f8808-2812-4373-ae95-8cfb82134978
       type: derived
@@ -26,8 +24,8 @@ detection:
             - '%%4417' # WriteData
             - '%%4418' # AppendData
         EventID:
-            - 4656 # A handle to an object was requested.
-            - 4663 # An attempt was made to access an object.
+            - '4656' # A handle to an object was requested.
+            - '4663' # An attempt was made to access an object.
         ObjectName|contains: '\Microsoft\Windows Defender\Exclusions\'
     condition: selection
 falsepositives:

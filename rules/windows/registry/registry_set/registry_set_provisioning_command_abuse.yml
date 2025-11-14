@@ -1,7 +1,5 @@
 title: Potential Provisioning Registry Key Abuse For Binary Proxy Execution - REG
 id: 7021255e-5db3-4946-a8b9-0ba7a4644a69
-related:
-    - id: 7f5d1c9a-3e83-48df-95a7-2b98aae6c13c # CLI Generic
       type: similar
     - id: f9999590-1f94-4a34-a91e-951e47bedefd # CLI Abuse
       type: similar

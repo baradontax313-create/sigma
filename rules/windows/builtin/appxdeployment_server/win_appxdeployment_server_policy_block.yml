@@ -15,10 +15,10 @@ logsource:
 detection:
     selection:
         EventID:
-            - 441
-            - 442
-            - 453
-            - 454
+            - '441'
+            - '442'
+            - '453'
+            - '454'
     condition: selection
 falsepositives:
     - Unknown

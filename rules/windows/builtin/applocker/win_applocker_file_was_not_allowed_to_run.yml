@@ -23,10 +23,10 @@ logsource:
 detection:
     selection:
         EventID:
-            - 8004
-            - 8007
-            - 8022
-            - 8025
+            - '8004'
+            - '8007'
+            - '8022'
+            - '8025'
     condition: selection
 fields:
     - PolicyName

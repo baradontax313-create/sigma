@@ -19,8 +19,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 4656
-            - 4663
+            - '4656'
+            - '4663'
         ObjectType: 'Key'
         ObjectName: '\REGISTRY\MACHINE\SOFTWARE\Microsoft\Microsoft Online\Reporting\MonitoringAgent'
     filter:

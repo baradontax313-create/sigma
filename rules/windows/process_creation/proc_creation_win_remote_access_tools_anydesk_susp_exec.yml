@@ -1,7 +1,5 @@
 title: Remote Access Tool - Anydesk Execution From Suspicious Folder
 id: 065b00ca-5d5c-4557-ac95-64a6d0b64d86
-related:
-    - id: b52e84a3-029e-4529-b09b-71d19dd27e94
       type: similar
 status: test
 description: |

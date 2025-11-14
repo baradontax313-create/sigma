@@ -1,7 +1,5 @@
 title: Potentially Suspicious Child Process Of DiskShadow.EXE
 id: 9f546b25-5f12-4c8d-8532-5893dcb1e4b8
-related:
-    - id: fa1a7e52-3d02-435b-81b8-00da14dd66c1 # Diskshadow Script Mode - Execution From Potential Suspicious Location
       type: similar
     - id: 1dde5376-a648-492e-9e54-4241dd9b0c7f # Diskshadow Script Mode - Uncommon Script Extension Execution
       type: similar

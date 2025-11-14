@@ -1,7 +1,5 @@
 title: Kubernetes Admission Controller Modification
 id: eed82177-38f5-4299-8a76-098d50d225ab
-related:
-    - id: 6ad91e31-53df-4826-bd27-0166171c8040
       type: similar
 status: test
 description: |
