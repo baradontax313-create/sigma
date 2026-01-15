@@ -18,9 +18,9 @@ logsource:
 detection:
     selection:
         EventID:
-            - 2003  # Loading drivers
-            - 2100  # Pnp or power management
-            - 2102  # Pnp or power management
+            - '2003'  # Loading drivers
+            - '2100'  # Pnp or power management
+            - '2102'  # Pnp or power management
     condition: selection
 falsepositives:
     - Legitimate administrative activity

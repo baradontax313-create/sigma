@@ -16,9 +16,9 @@ logsource:
 detection:
     selection:
         EventID:
-            - 40300
-            - 40301
-            - 40302
+            - '40300'
+            - '40301'
+            - '40302'
     keywords:
         - 'HybridConnection'
         - 'sb://'

@@ -21,7 +21,7 @@ detection:
     filter_main_dword:
         Details|startswith: 'DWORD'
     filter_main_null:
-        Details: null
+        Details: 'null'
     filter_main_office:
         Details:
             - 'Cookie:'

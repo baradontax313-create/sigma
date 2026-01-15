@@ -19,7 +19,7 @@ detection:
     selection:
         Image|endswith: '\msdt.exe'
         CommandLine|contains: '\WINDOWS\diagnostics\index\PCWDiagnostic.xml'
-        CommandLine|contains|windash: ' -af '
+        CommandLine|contains: ' -af '
     filter_main_pcwrun:
         ParentImage|endswith: '\pcwrun.exe'
     condition: selection and not 1 of filter_main_*

@@ -19,8 +19,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 4624
-            - 4625
+            - '4624'
+            - '4625'
         LogonType: 3
         LogonProcessName: 'NtLmSsp'
         WorkstationName|expand: '%Workstations%'

@@ -17,10 +17,10 @@ logsource:
 detection:
     selection:
         EventID:
-            - 5001 # Real-time protection is disabled.
-            - 5010 # Scanning for malware and other potentially unwanted software is disabled.
-            - 5012 # Scanning for viruses is disabled.
-            - 5101 # The antimalware platform is expired.
+            - '5001' # Real-time protection is disabled.
+            - '5010' # Scanning for malware and other potentially unwanted software is disabled.
+            - '5012' # Scanning for viruses is disabled.
+            - '5101' # The antimalware platform is expired.
     condition: selection
 falsepositives:
     - Administrator actions (should be investigated)

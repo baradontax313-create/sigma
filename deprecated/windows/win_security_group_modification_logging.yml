@@ -54,12 +54,12 @@ logsource:
 detection:
     selection:
         EventID:
-            - 4728 # A member was added to a security-enabled global group
-            - 4729 # A member was removed from a security-enabled global group
-            - 4730 # A security-enabled global group was deleted
-            - 633 # Security Enabled Global Group Member Removed
-            - 632 # Security Enabled Global Group Member Added
-            - 634 # Security Enabled Global Group Deleted
+            - '4728' # A member was added to a security-enabled global group
+            - '4729' # A member was removed from a security-enabled global group
+            - '4730' # A security-enabled global group was deleted
+            - '633' # Security Enabled Global Group Member Removed
+            - '632' # Security Enabled Global Group Member Added
+            - '634' # Security Enabled Global Group Deleted
     condition: selection
 falsepositives:
     - Unknown

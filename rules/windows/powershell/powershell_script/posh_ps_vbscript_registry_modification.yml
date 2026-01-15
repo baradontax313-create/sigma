@@ -1,10 +1,5 @@
 title: Registry Modification Attempt Via VBScript - PowerShell
 id: 2a0a169d-cc66-43ce-9ae2-6e678e54e46a
-related:
-    - id: 921aa10f-2e74-4cca-9498-98f9ca4d6fdf
-      type: similar
-    - id: 7f4c43f9-b1a5-4c7d-b24a-b41bf3a3ebf2
-      type: similar
 status: experimental
 description: |
     Detects attempts to modify the registry using VBScript's CreateObject("Wscript.shell") and RegWrite methods embedded within PowerShell scripts or commands.

@@ -20,8 +20,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 3033 # Code Integrity determined that a process (%4) attempted to load %2 that did not meet the %5 signing level requirements.
-            - 3034 # Code Integrity determined that a process (%4) attempted to load %2 that did not meet the %5 signing level requirements or violated code integrity policy. However, due to code integrity auditing policy, the image was allowed to load.
+            - '3033' # Code Integrity determined that a process (%4) attempted to load %2 that did not meet the %5 signing level requirements.
+            - '3034' # Code Integrity determined that a process (%4) attempted to load %2 that did not meet the %5 signing level requirements or violated code integrity policy. However, due to code integrity auditing policy, the image was allowed to load.
     filter_optional_dtrace:
         # Example: Code Integrity determined that a process (\Device\HarddiskVolume5\Windows\System32\svchost.exe) attempted to load \Device\HarddiskVolume5\Program Files\DTrace\dtrace.dll that did not meet the Windows signing level requirements.
         FileNameBuffer|endswith: '\Program Files\DTrace\dtrace.dll'

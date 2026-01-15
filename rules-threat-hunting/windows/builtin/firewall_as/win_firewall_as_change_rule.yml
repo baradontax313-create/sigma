@@ -17,8 +17,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 2005 # A rule has been modified in the Windows Defender Firewall exception list (Windows 10)
-            - 2073 # A rule has been modified in the Windows Defender Firewall exception list. (Windows 11)
+            - '2005' # A rule has been modified in the Windows Defender Firewall exception list (Windows 10)
+            - '2073' # A rule has been modified in the Windows Defender Firewall exception list. (Windows 11)
     filter_optional_teams:
         ApplicationPath|endswith: '\AppData\local\microsoft\teams\current\teams.exe'
     filter_optional_keybase:

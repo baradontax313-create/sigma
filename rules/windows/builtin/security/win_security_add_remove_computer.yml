@@ -17,8 +17,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 4741
-            - 4743
+            - '4741'
+            - '4743'
     condition: selection
 falsepositives:
     - Unknown

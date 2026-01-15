@@ -1,10 +1,5 @@
 title: Suspicious FileFix Execution Pattern
 id: b5b29e4e-31fa-4fdf-b058-296e7a1aa0c2
-related:
-    - id: 4fee3d51-8069-4a4c-a0f7-924fcaff2c70
-      type: similar
-    - id: 4be03877-d5b6-4520-85c9-a5911c0a656c
-      type: obsolete
 status: experimental
 description: |
     Detects suspicious FileFix execution patterns where users are tricked into running malicious commands through browser file upload dialog manipulation.

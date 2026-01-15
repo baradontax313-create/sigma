@@ -1,8 +1,5 @@
 title: Suspicious Process Access to LSASS with Dbgcore/Dbghelp DLLs
 id: 9f5c1d59-33be-4e60-bcab-85d2f566effd
-related:
-    - id: 416bc4a2-7217-4519-8dc7-c3271817f1d5
-      type: similar
 status: experimental
 description: |
     Detects suspicious process access to LSASS.exe from processes located in uncommon locations with dbgcore.dll or dbghelp.dll in the call trace.

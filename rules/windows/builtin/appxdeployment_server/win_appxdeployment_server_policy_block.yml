@@ -21,10 +21,10 @@ logsource:
 detection:
     selection:
         EventID:
-            - 441 # The package deployment operation is blocked by the "Allow deployment operations in special profiles" policy
-            - 442 # Deployments to non-system volumes are blocked by the "Disable deployment of Windows Store apps to non-system volumes" policy."
-            - 453 # Package blocked by a platform policy
-            - 454 # Package blocked by a platform policy
+            - '441' # The package deployment operation is blocked by the "Allow deployment operations in special profiles" policy
+            - '442' # Deployments to non-system volumes are blocked by the "Disable deployment of Windows Store apps to non-system volumes" policy."
+            - '453' # Package blocked by a platform policy
+            - '454' # Package blocked by a platform policy
     condition: selection
 falsepositives:
     - Unlikely, since this event notifies about blocked application deployment. Tune your applocker rules to avoid blocking legitimate applications.

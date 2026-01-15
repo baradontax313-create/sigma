@@ -18,8 +18,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 4656
-            - 4663
+            - '4656'
+            - '4663'
         ObjectName|endswith: '\wceaux.dll'
     condition: selection
 falsepositives:

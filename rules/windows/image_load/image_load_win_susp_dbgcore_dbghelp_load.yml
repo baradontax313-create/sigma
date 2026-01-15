@@ -1,8 +1,5 @@
 title: Suspicious Loading of Dbgcore/Dbghelp DLLs from Uncommon Location
 id: 416bc4a2-7217-4519-8dc7-c3271817f1d5
-related:
-    - id: 9f5c1d59-33be-4e60-bcab-85d2f566effd
-      type: similar
 status: experimental
 description: |
     Detects loading of dbgcore.dll or dbghelp.dll from uncommon locations such as user directories.

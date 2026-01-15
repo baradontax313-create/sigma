@@ -19,10 +19,10 @@ logsource:
 detection:
     selection:
         DestinationPort:
-            - 25
-            - 587
-            - 465
-            - 2525
+            - '25'
+            - '587'
+            - '465'
+            - '2525'
         Initiated: 'true'
     filter_clients:
         Image|endswith:

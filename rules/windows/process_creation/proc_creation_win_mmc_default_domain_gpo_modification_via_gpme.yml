@@ -1,8 +1,5 @@
 title: Windows Default Domain GPO Modification via GPME
 id: dcff7e85-d01f-4eb5-badd-84e2e6be8294
-related:
-    - id: e5ac86dd-2da1-454b-be74-05d26c769d7d
-      type: similar
 status: experimental
 description: |
     Detects the use of the Group Policy Management Editor (GPME) to modify Default Domain or Default Domain Controllers Group Policy Objects (GPOs).

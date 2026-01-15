@@ -16,11 +16,11 @@ logsource:
 detection:
     selection:
         EventID:
-            - 2002 # A Windows Defender Firewall setting has changed.
-            - 2083 # A Windows Defender Firewall setting has changed. (Windows 11)
-            - 2003 # A Windows Firewall setting in the profile has changed
-            - 2082 # A Windows Defender Firewall setting in the %1 profile has changed. (Windows 11)
-            - 2008  # Windows Firewall Group Policy settings have changed. The new settings have been applied
+            - '2002' # A Windows Defender Firewall setting has changed.
+            - '2083' # A Windows Defender Firewall setting has changed. (Windows 11)
+            - '2003' # A Windows Firewall setting in the profile has changed
+            - '2082' # A Windows Defender Firewall setting in the %1 profile has changed. (Windows 11)
+            - '2008'  # Windows Firewall Group Policy settings have changed. The new settings have been applied
             # - 2010  # Network profile changed on an interface.
     condition: selection
 level: low

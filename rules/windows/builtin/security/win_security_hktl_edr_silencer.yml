@@ -18,8 +18,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 5441
-            - 5447
+            - '5441'
+            - '5447'
         FilterName|contains: 'Custom Outbound Filter'
     condition: selection
 falsepositives:

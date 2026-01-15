@@ -28,7 +28,7 @@ detection:
     filter_main_empty_value:
         Details: '(Empty)'
     filter_main_null:
-        Details: null
+        Details: 'null'
     condition: selection and not 1 of filter_main_*
 falsepositives:
     - Legitimate custom SHIM installations will also trigger this rule
