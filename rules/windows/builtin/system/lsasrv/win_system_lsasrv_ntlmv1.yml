@@ -18,8 +18,8 @@ detection:
     selection:
         Provider_Name: "LsaSrv"
         EventID:
-            - 6038
-            - 6039
+            - '6038'
+            - '6039'
     condition: selection
 falsepositives:
     - Environments that use NTLMv1

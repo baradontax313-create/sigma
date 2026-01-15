@@ -18,8 +18,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 12
-            - 13
+            - '12'
+            - '13'
         TargetObject|contains: 'SYSTEM\'
         TargetObject|endswith: '\services\localNETService'
     condition: selection

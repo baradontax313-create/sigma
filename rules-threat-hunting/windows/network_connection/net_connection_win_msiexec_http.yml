@@ -23,8 +23,8 @@ detection:
         Initiated: 'true'
         Image|endswith: '\msiexec.exe'
         DestinationPort:
-            - 80
-            - 443
+            - '80'
+            - '443'
     condition: selection
 falsepositives:
     - Likely

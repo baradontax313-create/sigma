@@ -22,8 +22,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 4672
-            - 4964
+            - '4672'
+            - '4964'
     filter_main_local_system:
         SubjectUserSid: 'S-1-5-18'
     filter_main_valid_account:

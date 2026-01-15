@@ -23,17 +23,17 @@ detection:
         - Image|endswith: '\wlrmdr.exe'
         - OriginalFileName: 'WLRMNDR.EXE'
     selection_child_cli_flags_s:
-        CommandLine|contains|windash: '-s '
+        CommandLine|contains: '-s '
     selection_child_cli_flags_f:
-        CommandLine|contains|windash: '-f '
+        CommandLine|contains: '-f '
     selection_child_cli_flags_t:
-        CommandLine|contains|windash: '-t '
+        CommandLine|contains: '-t '
     selection_child_cli_flags_m:
-        CommandLine|contains|windash: '-m '
+        CommandLine|contains: '-m '
     selection_child_cli_flags_a:
-        CommandLine|contains|windash: '-a '
+        CommandLine|contains: '-a '
     selection_child_cli_flags_u:
-        CommandLine|contains|windash: '-u '
+        CommandLine|contains: '-u '
     filter_main_winlogon:
         ParentImage: 'C:\Windows\System32\winlogon.exe'
     filter_main_empty:
@@ -41,7 +41,7 @@ detection:
             - ''
             - '-'
     filter_main_null:
-        ParentImage: null
+        ParentImage: 'null'
     condition: selection_parent or (all of selection_child_* and not 1 of filter_main_*)
 falsepositives:
     - Unknown

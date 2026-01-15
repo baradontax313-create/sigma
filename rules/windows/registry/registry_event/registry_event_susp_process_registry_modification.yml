@@ -1,10 +1,5 @@
 title: Registry Tampering by Potentially Suspicious Processes
 id: 7f4c43f9-b1a5-4c7d-b24a-b41bf3a3ebf2
-related:
-    - id: 2a0a169d-cc66-43ce-9ae2-6e678e54e46a
-      type: similar
-    - id: 921aa10f-2e74-4cca-9498-98f9ca4d6fdf
-      type: similar
 status: experimental
 description: |
     Detects suspicious registry modifications made by suspicious processes such as script engine processes such as WScript, or CScript etc.

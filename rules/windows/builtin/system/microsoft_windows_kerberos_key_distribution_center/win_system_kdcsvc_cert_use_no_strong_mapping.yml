@@ -21,8 +21,8 @@ detection:
             - 'Kerberos-Key-Distribution-Center'
             - 'Microsoft-Windows-Kerberos-Key-Distribution-Center'
         EventID:
-            - 39
-            - 41 # For Windows Server 2008 R2 SP1 and Windows Server 2008 SP2
+            - '39'
+            - '41' # For Windows Server 2008 R2 SP1 and Windows Server 2008 SP2
     condition: selection
 falsepositives:
     - If prevalent in the environment, filter on events where the AccountName and CN of the Subject do not reference the same user

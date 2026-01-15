@@ -16,8 +16,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 2006 # A rule has been deleted in the Windows Defender Firewall exception list
-            - 2052 # A rule has been deleted in the Windows Defender Firewall exception list. (Windows 11)
+            - '2006' # A rule has been deleted in the Windows Defender Firewall exception list
+            - '2052' # A rule has been deleted in the Windows Defender Firewall exception list. (Windows 11)
     filter_main_generic:
         ModifyingApplication|startswith:
             - 'C:\Program Files (x86)\'
@@ -29,7 +29,7 @@ detection:
         ModifyingApplication|startswith: 'C:\ProgramData\Microsoft\Windows Defender\Platform\'
         ModifyingApplication|endswith: '\MsMpEng.exe'
     filter_main_null:
-        ModifyingApplication: null
+        ModifyingApplication: 'null'
     filter_main_empty:
         ModifyingApplication: ''
     condition: selection and not 1 of filter_main_* and not 1 of filter_optional_*

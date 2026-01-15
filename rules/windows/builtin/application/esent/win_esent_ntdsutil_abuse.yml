@@ -18,10 +18,10 @@ detection:
     selection:
         Provider_Name: 'ESENT'
         EventID:
-            - 216
-            - 325
-            - 326
-            - 327
+            - '216'
+            - '325'
+            - '326'
+            - '327'
         Data|contains: 'ntds.dit'
     condition: selection
 falsepositives:

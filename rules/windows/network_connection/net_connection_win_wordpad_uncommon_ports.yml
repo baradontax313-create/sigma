@@ -21,14 +21,14 @@ detection:
         Image|endswith: '\wordpad.exe'
     filter_main_ports:
         DestinationPort:
-            - 80
-            - 139
-            - 443
-            - 445
-            - 465
-            - 587
-            - 993
-            - 995
+            - '80'
+            - '139'
+            - '443'
+            - '445'
+            - '465'
+            - '587'
+            - '993'
+            - '995'
     condition: selection and not 1 of filter_main_*
 falsepositives:
     - Other ports can be used, apply additional filters accordingly

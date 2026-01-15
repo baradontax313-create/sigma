@@ -20,8 +20,8 @@ logsource:
 detection:
     selection:
         DestinationPort:
-            - 5985
-            - 5986
+            - '5985'
+            - '5986'
         Initiated: 'true' # only matches of the initiating system can be evaluated
         SourceIsIpv6: 'false'
     filter_main_service_users:
