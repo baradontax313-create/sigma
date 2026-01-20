@@ -1,8 +1,5 @@
 title: Local Network Connection Initiated By Script Interpreter
 id: 08249dc0-a28d-4555-8ba5-9255a198e08c
-related:
-    - id: 992a6cae-db6a-43c8-9cec-76d7195c96fc
-      type: derived
 status: test
 description: |
     Detects a script interpreter (Wscript/Cscript) initiating a local network connection to download or execute a script hosted on a shared folder.
@@ -24,7 +21,7 @@ detection:
             - '\wscript.exe'
             - '\cscript.exe'
         # Note: This list is added to avoid duplicate alerting with 992a6cae-db6a-43c8-9cec-76d7195c96fc
-        DestinationIp|cidr:
+        DestinationIp:
             - '127.0.0.0/8'
             - '10.0.0.0/8'
             - '172.16.0.0/12'

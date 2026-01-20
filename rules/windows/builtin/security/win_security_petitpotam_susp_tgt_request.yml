@@ -29,7 +29,7 @@ detection:
     filter_local:
         IpAddress: '::1'
     filter_thumbprint:
-        CertThumbprint: ''
+        CertThumbprint: 'N/A'
     condition: selection and not 1 of filter_*
 falsepositives:
     - False positives are possible if the environment is using certificates for authentication. We recommend filtering Account_Name to the Domain Controller computer accounts.

@@ -18,7 +18,7 @@ logsource:
 detection:
     selection:
       # Empty string - as used by Powershell's (New-Object Net.WebClient).DownloadString
-        c-useragent: ''
+        c-useragent: 'N/A'
     condition: selection
 falsepositives:
     - Unknown

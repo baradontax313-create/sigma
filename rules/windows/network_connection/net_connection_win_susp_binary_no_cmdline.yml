@@ -23,9 +23,9 @@ detection:
             - '\rundll32.exe'
             - '\dllhost.exe'
     filter_no_cmdline:
-        CommandLine: ''
+        CommandLine: 'N/A'
     filter_null: # e.g. Sysmon has no CommandLine field in network events with ID 3
-        CommandLine: null
+        CommandLine: 'null'
     condition: selection and not 1 of filter*
 falsepositives:
     - Unknown

@@ -19,9 +19,9 @@ logsource:
 detection:
     selection:
         EventID:
-            - 19
-            - 20
-            - 21
+            - '19'
+            - '20'
+            - '21'
     condition: selection
 falsepositives:
     - Exclude legitimate (vetted) use of WMI event subscription in your network

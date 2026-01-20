@@ -36,9 +36,9 @@ detection:
         Image: C:\Windows\servicing\TrustedInstaller.exe
         TargetObject|contains: '\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Compat-Appraiser'
     filter_optional_empty: # This filter is related to aurora. Should be removed when fix is deployed. # TODO: Remove later
-        Image: ''
+        Image: 'N/A'
     filter_optional_null: # This filter is related to aurora. Should be removed when fix is deployed. # TODO: Remove later
-        Image: null
+        Image: 'null'
     condition: selection and not 1 of filter_main_* and not 1 of filter_optional_*
 falsepositives:
     - Rare falsepositives may occur from legitimate administrators disabling specific event log for troubleshooting

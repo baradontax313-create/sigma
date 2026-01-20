@@ -16,8 +16,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 2033 # All rules have been deleted from the Windows Defender Firewall configuration on this computer
-            - 2059 # All rules have been deleted from the Windows Defender Firewall configuration on this computer. (Windows 11)
+            - '2033' # All rules have been deleted from the Windows Defender Firewall configuration on this computer
+            - '2059' # All rules have been deleted from the Windows Defender Firewall configuration on this computer. (Windows 11)
     filter_main_svchost:
         ModifyingApplication|endswith: ':\Windows\System32\svchost.exe'
     filter_optional_msmpeng:

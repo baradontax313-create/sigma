@@ -24,22 +24,22 @@ detection:
             - '\wordview.exe'
     filter_main_common_ports:
         DestinationPort:
-            - 53 # DNS
-            - 80 # HTTP
-            - 139 # NETBIOS
-            - 389 # LDAP
-            - 443 # HTTPS
-            - 445 # SMB
-            - 3268 # MSFT-GC
+            - '53' # DNS
+            - '80' # HTTP
+            - '139' # NETBIOS
+            - '389' # LDAP
+            - '443' # HTTPS
+            - '445' # SMB
+            - '3268' # MSFT-GC
     filter_main_outlook_ports:
         Image|contains: ':\Program Files\Microsoft Office\'
         Image|endswith: '\OUTLOOK.EXE'
         DestinationPort:
-            - 143
-            - 465 # SMTP
-            - 587 # SMTP
-            - 993 # IMAP
-            - 995 # POP3
+            - '143'
+            - '465' # SMTP
+            - '587' # SMTP
+            - '993' # IMAP
+            - '995' # POP3
     condition: selection and not 1 of filter_main_*
 falsepositives:
     - Other ports can be used, apply additional filters accordingly

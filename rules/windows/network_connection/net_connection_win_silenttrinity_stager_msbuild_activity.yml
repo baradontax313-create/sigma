@@ -19,8 +19,8 @@ detection:
         Image|endswith: '\msbuild.exe'
     filter:
         DestinationPort:
-            - 80
-            - 443
+            - '80'
+            - '443'
         Initiated: 'true'
     condition: selection and filter
 falsepositives:

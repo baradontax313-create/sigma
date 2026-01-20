@@ -18,7 +18,7 @@ logsource:
 detection:
     selection:
         EventID: 31017
-        UserName: ''
+        UserName: 'N/A'
         ServerName|startswith: '\1'
     condition: selection
 falsepositives:

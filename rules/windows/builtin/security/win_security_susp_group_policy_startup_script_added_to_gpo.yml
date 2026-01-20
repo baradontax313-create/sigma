@@ -20,8 +20,8 @@ logsource:
 detection:
     selection_eventid:
         EventID:
-            - 5136
-            - 5145
+            - '5136'
+            - '5145'
     selection_attributes_main:
         AttributeLDAPDisplayName:
             - 'gPCMachineExtensionNames'

@@ -22,7 +22,7 @@ logsource:
     product: windows
 detection:
     selection_cmd_operation:
-        CommandLine|contains|windash:
+        CommandLine|contains:
             - ' /create '
             - ' /delete '
             - ' /query '
@@ -30,7 +30,7 @@ detection:
             - ' /run '
             - ' /end '
     selection_cmd_flags:
-        CommandLine|contains|windash:
+        CommandLine|contains:
             - ' /tn '
             - ' /tr '
             - ' /sc '

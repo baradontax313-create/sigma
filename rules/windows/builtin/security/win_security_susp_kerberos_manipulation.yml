@@ -16,10 +16,10 @@ logsource:
 detection:
     selection:
         EventID:
-            - 675
-            - 4768
-            - 4769
-            - 4771
+            - '675'
+            - '4768'
+            - '4769'
+            - '4771'
         Status:
             - '0x9'
             - '0xA'

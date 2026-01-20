@@ -49,7 +49,7 @@ detection:
     selection_generic_5:
         ParentImage|endswith: '\rundll32.exe'
         Image|endswith: '\dllhost.exe'
-        CommandLine: ''
+        CommandLine: 'N/A'
     condition: 1 of selection_generic_*
 falsepositives:
     - Unknown

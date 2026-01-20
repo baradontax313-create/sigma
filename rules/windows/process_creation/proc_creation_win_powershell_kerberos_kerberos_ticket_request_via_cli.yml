@@ -1,8 +1,5 @@
 title: Suspicious Kerberos Ticket Request via CLI
 id: caa9a802-8bd8-4b9e-a5cd-4d6221670219
-related:
-    - id: a861d835-af37-4930-bcd6-5b178bfb54df
-      type: similar
 status: experimental
 description: |
     Detects suspicious Kerberos ticket requests via command line using System.IdentityModel.Tokens.KerberosRequestorSecurityToken class.

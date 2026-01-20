@@ -26,9 +26,9 @@ detection:
     filter_main_installers:
         SourceFilename|endswith: '.tmp'
     filter_main_empty_source:
-        SourceFilename: ''
+        SourceFilename: 'N/A'
     filter_main_null_source:
-        SourceFilename: null
+        SourceFilename: 'null'
     filter_main_tiworker:
         Image|contains: ':\Windows\WinSxS\'
         Image|endswith: '\TiWorker.exe'

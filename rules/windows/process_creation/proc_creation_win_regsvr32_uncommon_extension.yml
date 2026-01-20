@@ -32,9 +32,9 @@ detection:
     filter_optional_avg:
         CommandLine|contains: '.bav'
     filter_main_null_4688:
-        CommandLine: null
+        CommandLine: 'null'
     filter_main_empty_4688:
-        CommandLine: ''
+        CommandLine: 'N/A'
     condition: selection and not 1 of filter_main_* and not 1 of filter_optional_*
 falsepositives:
     - Other legitimate extensions currently not in the list either from third party or specific Windows components.

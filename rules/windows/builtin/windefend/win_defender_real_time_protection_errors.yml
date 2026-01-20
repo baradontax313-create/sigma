@@ -18,8 +18,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 3002 # Real-Time Protection feature has encountered an error and failed
-            - 3007 # Real-time Protection feature has restarted
+            - '3002' # Real-Time Protection feature has encountered an error and failed
+            - '3007' # Real-time Protection feature has restarted
     filter_optional_network_inspection:
         Feature_Name: '%%886' # Network Inspection System
         Reason:

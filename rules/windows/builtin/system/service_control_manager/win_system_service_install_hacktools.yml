@@ -18,8 +18,8 @@ detection:
     selection_eid:
         Provider_Name: 'Service Control Manager'
         EventID:
-            - 7045
-            - 7036
+            - '7045'
+            - '7036'
     selection_service_name:
         ServiceName|contains:
             - 'cachedump'

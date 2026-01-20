@@ -37,7 +37,7 @@ detection:
             - 'TokenCacheModule'
             - 'UriCacheModule'
     filter_main_remove:
-        NewValue: ''
+        NewValue: 'N/A'
     condition: selection and not 1 of filter_main_*
 falsepositives:
     - Legitimate administrator activity

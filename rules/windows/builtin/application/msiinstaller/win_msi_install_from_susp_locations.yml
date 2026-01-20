@@ -17,8 +17,8 @@ detection:
     selection:
         Provider_Name: 'MsiInstaller'
         EventID:
-            - 1040
-            - 1042
+            - '1040'
+            - '1042'
         Data|contains:
             # Add more suspicious paths
             - ':\Windows\TEMP\'

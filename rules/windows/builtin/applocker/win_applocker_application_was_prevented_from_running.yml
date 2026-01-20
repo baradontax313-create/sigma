@@ -24,10 +24,10 @@ logsource:
 detection:
     selection:
         EventID:
-            - 8004 # EXE and DLL
-            - 8007 # MSI and Script
-            - 8022 # Packaged app execution
-            - 8025 # Packaged app deployment
+            - '8004' # EXE and DLL
+            - '8007' # MSI and Script
+            - '8022' # Packaged app execution
+            - '8025' # Packaged app deployment
     condition: selection
 falsepositives:
     - Unlikely, since this event notifies about blocked application execution. Tune your applocker rules to avoid blocking legitimate applications.

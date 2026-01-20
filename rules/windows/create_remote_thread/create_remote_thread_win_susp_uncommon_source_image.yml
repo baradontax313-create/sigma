@@ -1,8 +1,5 @@
 title: Remote Thread Creation By Uncommon Source Image
 id: 66d31e5f-52d6-40a4-9615-002d3789a119
-related:
-    - id: 02d1d718-dd13-41af-989d-ea85c7fab93f
-      type: derived
 status: test
 description: Detects uncommon processes creating remote threads.
 references:
@@ -100,9 +97,9 @@ detection:
         SourceImage|endswith: '\POWERPNT.EXE'
         TargetImage: 'C:\Windows\System32\csrss.exe'
     filter_main_null:
-        TargetImage: null
+        TargetImage: 'null'
     filter_main_empty:
-        TargetImage: ''
+        TargetImage: 'N/A'
     filter_optional_onedrive:
         SourceImage: 'C:\Windows\explorer.exe'
         TargetImage|endswith: '\AppData\Local\Microsoft\OneDrive\OneDrive.exe'

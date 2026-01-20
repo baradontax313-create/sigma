@@ -1,8 +1,5 @@
 title: Network Connection Initiated To AzureWebsites.NET By Non-Browser Process
 id: 5c80b618-0dbb-46e6-acbb-03d90bcb6d83
-related:
-    - id: e043f529-8514-4205-8ab0-7f7d2927b400
-      type: derived
 status: test
 description: |
     Detects an initiated network connection by a non browser process on the system to "azurewebsites.net". The latter was often used by threat actors as a malware hosting and exfiltration site.
@@ -136,9 +133,9 @@ detection:
         Image|contains: '\AppData\Local\Discord\'
         Image|endswith: '\Discord.exe'
     filter_main_null:
-        Image: null
+        Image: 'null'
     filter_main_empty:
-        Image: ''
+        Image: 'N/A'
     # filter_optional_qlik:
     #     Image|endswith: '\Engine.exe' # Process from qlik.com app
     condition: selection and not 1 of filter_main_*

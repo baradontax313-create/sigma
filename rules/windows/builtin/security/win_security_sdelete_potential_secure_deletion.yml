@@ -23,9 +23,9 @@ logsource:
 detection:
     selection:
         EventID:
-            - 4656
-            - 4663
-            - 4658
+            - '4656'
+            - '4663'
+            - '4658'
         ObjectName|endswith:
             - '.AAA'
             - '.ZZZ'

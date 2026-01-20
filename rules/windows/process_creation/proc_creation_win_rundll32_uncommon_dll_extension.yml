@@ -18,9 +18,9 @@ detection:
         - Image|endswith: '\rundll32.exe'
         - OriginalFileName: 'RUNDLL32.EXE'
     filter_main_null:
-        CommandLine: null
+        CommandLine: 'null'
     filter_main_empty:
-        CommandLine: ''
+        CommandLine: 'N/A'
     filter_main_known_extension:
         - CommandLine|contains:
               # Note: This aims to cover: single and double quotes in addition to spaces and comma "," usage.

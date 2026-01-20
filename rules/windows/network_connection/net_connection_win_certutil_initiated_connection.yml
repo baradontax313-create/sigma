@@ -20,10 +20,10 @@ detection:
         Image|endswith: '\certutil.exe'
         Initiated: 'true'
         DestinationPort:
-            - 80
-            - 135
-            - 443
-            - 445
+            - '80'
+            - '135'
+            - '443'
+            - '445'
     condition: selection
 falsepositives:
     - Unknown

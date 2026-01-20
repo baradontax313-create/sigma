@@ -23,9 +23,9 @@ detection:
             - C:\Windows\
             - C:\ProgramData\Amazon\SSM\Update\amazon-ssm-agent-updater
     filter_image_null1:
-        Image: null
+        Image: 'null'
     filter_image_null2:
-        Image: ''
+        Image: 'N/A'
     filter_image_unknown:
         Image: '<unknown process>'
     condition: selection and not 1 of filter_*

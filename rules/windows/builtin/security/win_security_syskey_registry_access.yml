@@ -16,8 +16,8 @@ logsource:
 detection:
     selection:
         EventID:
-            - 4656
-            - 4663
+            - '4656'
+            - '4663'
         ObjectType: 'key'
         ObjectName|endswith:
             - 'lsa\JD'

@@ -47,10 +47,10 @@ detection:
             - '\VMware\VMware Tools\suspend-vm-default.bat'
     filter_main_empty:
         Image|endswith: '\cmd.exe'
-        CommandLine: ''
+        CommandLine: 'N/A'
     filter_main_null:
         Image|endswith: '\cmd.exe'
-        CommandLine: null
+        CommandLine: 'null'
     condition: all of selection* and not 1 of filter_main_*
 falsepositives:
     - Legitimate use by VM administrator

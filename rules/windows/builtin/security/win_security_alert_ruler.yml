@@ -30,8 +30,8 @@ detection:
         Workstation: 'RULER'
     selection2:
         EventID:
-            - 4624
-            - 4625
+            - '4624'
+            - '4625'
         WorkstationName: 'RULER'
     condition: (1 of selection*)
 falsepositives:
